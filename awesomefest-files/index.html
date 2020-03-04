@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>AwesomeFest 2020</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato+Rock+Salt&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+        <div>
+          <h1>AwesomeFest</h1> 
+          <h2> Coming to Barrie, Ontario</h2>
+          <h3> Summer 2020</h3>
+        </div>
+      </header>
+      <div class="wrapper">
+        <main>
+          <section>
+          <p> A 2 day festival experience featuring all your favourite bands right here in your own backyard.</p>
+            <section class="images">
+            <div>
+                <img src="images/awesomefest.jpg" alt="awesomefest concert picture">
+            </div>
+            <div>
+              <img src="images/awesomefest-2.jpg" alt="hands in the air">
+            </div>
+            </section>
+          </section>
+          <section>
+          <h3> Tickets </h3>
+          <table  class="table">
+            <thead>
+              <tr>
+                <th>Ticket Type</th>
+                <th>Description</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ultra Awesome Ticket</td>
+                <td>2 Day Camping Pass in VIP, exclusive section, VIP backstage access, Awesomefest Swag</td>
+                <td>$600.00</td>
+              </tr>
+              <tr>
+                <td>Super Awesome Ticket</td>
+                <td>1 Day Camping pass, Awesomefest Swag</td>
+                <td>$400.00</td>
+              </tr>
+              <tr>
+                <td>Awesome Ticket</td>
+                <td>One day access to main and side stage. Awesomefest beanie.</td>
+                <td>$200.00</td>
+              </tr>
+            </tbody>
+          </table>
+          </section>
+          <section>
+            <!-- need form here, must include fields for first name, last name, email, phonenumber,  ticket type (dropdown or radio boxes), credit card type (dropdown) and cc number.-->
+            <div class="form">
+              <div class="contact-form">
+                <div class="input-fields">
+                  <form action="/action_page.php" method="get">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    
+                    <label for="pnumber">Phone number:</label>
+                    <input type="text" id="pnumber" name="pnumber"><br><br>
+
+                    <select id="ticket" name="ticket"> 
+                      <option value="ticket">Ticket</option>
+                      <option value="ultra">Ultra Awesome Ticket</option>
+                      <option value="super">Super Awesome Ticket</option>
+                      <option value="awesome">Awesome Ticket</option>
+                    </select>
+
+                    <select id="credit" name="credit"> 
+                      <option value="credit">Payment</option>
+                      <option value="visa">Visa</option>
+                      <option value="paypal">Paypal</option>
+                      <option value="card">Master Card</option>
+                    </select>
+
+                    <div class="btn">Send</div> 
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+          <p> Copyright AwesomeFest 2020 &copy;. All Rights Reserved.</p>
+        </footer>
+      </div><!--end wrapper-->
+     
+  </body>
+</html>

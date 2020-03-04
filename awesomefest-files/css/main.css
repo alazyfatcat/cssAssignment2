@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box; 
+}
+
+html, 
+body {
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #fff; 
+  line-height: 1.4em;
+  text-align: center; 
+  background-color: #BF3EFF; 
+  
+}
+
+header {
+  background-image: url("../images/awesomefest3.jpg") ;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%; 
+  padding: 0 10%; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+h1, 
+h2, 
+h3 {
+ font-family: 'Rock Salt', cursive;
+ color: #eaeaea;
+ padding-bottom: 25px; 
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em; 
+}
+
+h3 {
+  font-size: 2em; 
+}
+
+p {
+  font-size: 1.2em; 
+}
+
+header {
+  height: 500px;
+  display: flex; 
+  justify-content:center;
+  align-items:center; 
+}
+
+.images {
+  display:flex;
+  width: 100%;
+}
+
+.images div {
+  width: 50%; 
+}
+
+main {
+  padding-top: 60px ; 
+}
+
+footer p {
+  color: #333; 
+  padding: 30px; 
+}
+/*table*/
+.table{
+  border-collapse: collapse;
+  margin: 10px 150px;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.table thead tr{
+  color:black;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table  th,
+.table  td {
+  padding: 12px 15px;
+}
+
+td{
+  text-align: left;
+}
+
+th{
+  text-align: center;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+/*form*/
+.form {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
+  padding: 0 20px;
+}
+.contact-form{
+  max-width: 350px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display:flex;
+  box-shadow: 0 0 10px;
+  text-align: left;
+}
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+ 
+input {
+  min-width: 280px;
+}
+.input-fields{
+  width: 48%;
+}
+ 
+.input-fields .input{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+ 
+
+ 
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #c5ecfd;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c5ecfd;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #c5ecfd;
+}
+ 
+.btn {
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
